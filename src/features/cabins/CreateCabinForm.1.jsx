@@ -1,5 +1,3 @@
-import styled from "styled-components";
-
 import Input from "../../ui/Input";
 import Form from "../../ui/Form";
 import Button from "../../ui/Button";
@@ -11,7 +9,7 @@ import { createCabin } from "../../services/apiCabins";
 import toast from "react-hot-toast";
 import FormRow from "../../ui/FormRow";
 
-function CreateCabinForm() {
+export function CreateCabinForm() {
   const { register, handleSubmit, reset, getValues, formState } = useForm();
 
   const { errors } = formState;
@@ -29,7 +27,9 @@ function CreateCabinForm() {
   });
 
   function onSubmit(data) {
-    mutate({ ...data, image: data.image[0] });
+    console.log(data);
+
+    mutate(data);
   }
   function onError(errors) {
     console.log(errors);
@@ -110,7 +110,7 @@ function CreateCabinForm() {
           id="image"
           disabled={isCreating}
           accept="image/*"
-          {...register("image", {
+          {...register("name", {
             required: "This field is required",
           })}
         />
@@ -126,5 +126,3 @@ function CreateCabinForm() {
     </Form>
   );
 }
-
-export default CreateCabinForm;
