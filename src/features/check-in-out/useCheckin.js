@@ -12,8 +12,7 @@ export function useCheckin() {
       updateBooking(bookingId, { status: "checked-in", isPaid: true });
     },
     onSuccess: (data) => {
-      console.log(data);
-      // toast.success(`Booking #${data.Id} Successfully Checked In`);
+      toast.success(`Booking #${data?.Id} Successfully Checked In`);
       queryClient.invalidateQueries({ active: true });
       navigate("/");
     },
