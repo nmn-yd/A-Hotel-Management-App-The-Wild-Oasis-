@@ -35,5 +35,9 @@ This is the internal application used inside the hotel to check in guests as the
 - Other tools - React Icons / React Toast Icon / Recharts / Supabase
 
 ## ScreenShots
+![image](https://github.com/nmn-yd/A-Hotel-Management-App-The-Wild-Oasis-/assets/97431919/ec8b1e36-90dd-41a0-8698-8037dc31c279)
+![image](https://github.com/nmn-yd/A-Hotel-Management-App-The-Wild-Oasis-/assets/97431919/efd7d0ab-1859-42ff-a359-879ff201c6b2)
+![image](https://github.com/nmn-yd/A-Hotel-Management-App-The-Wild-Oasis-/assets/97431919/c42dd1ca-87e1-4650-b7e7-b9674077cf39)
+![image](https://github.com/nmn-yd/A-Hotel-Management-App-The-Wild-Oasis-/assets/97431919/5a3d125d-ba40-4d35-aa17-8b9d9656f9f3)
+![image](https://github.com/nmn-yd/A-Hotel-Management-App-The-Wild-Oasis-/assets/97431919/2bcef4a5-9790-4a06-8b5b-77aab951fedb)
 
-Will Add Soon
