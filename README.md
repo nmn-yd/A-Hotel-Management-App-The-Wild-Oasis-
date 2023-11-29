@@ -4,6 +4,10 @@
 everything about the hotel: bookings, cabins and guests. It is built with React, Vite, Styled Components, React Query, React Router and more.
 This is the internal application used inside the hotel to check in guests as they arrive.It also has an API made using Supabase.
 
+Login ID Password : 
+Login ID: login@gmail.com
+Password: login
+
 ## Table of Contents
 
 - [Features](#features)
