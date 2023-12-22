@@ -20,7 +20,6 @@ Password: login
 - Users can able to upload an avatar, and change their name and password.
 - Users can able to update or delete a cabin, and to create new cabins (including uploading a photo).
 - App has a table view with all bookings, showing arrival and departure dates, status, and paid amount, as well as cabin and guest data
-- Users can add multiple pizzas to a cart before placing an order.
 - The initial app screen is a dashboard, to display important information for the last 7, 30, or 90 days:
   - A list of guests checking in and out on the current day. Users should be able to perform these tasks from here.
   - Statistics on recent bookings, sales, Check ins, and occupancy rate.
